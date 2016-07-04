@@ -1,0 +1,108 @@
+/*Base Styles*/
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+h1{     
+	margin-top: 50px;
+	font-family:times,sans-serif;
+	text-align: center; 
+	text-transform: capitalize;
+	
+
+}
+#column{
+	
+	background-color: #aaa;
+	border:2px solid black;
+	width: 90%;
+	margin-top: 50px;
+	margin-bottom:25px;
+	margin-right: 25px;
+    margin-left: 25px;
+	height: auto;
+	padding:0px;
+}
+
+p {	
+	font-family: Helvetica; 
+	position: relative;
+	clear: right;
+	padding:10px;
+	text-align: center;
+
+}
+/* Simple Responsive Framework. */
+.row{
+	width: 100%
+}
+/********** desktop version **********/
+@media (min-width: 992px) {
+ .col-lg-4{
+    float: left; 
+  }
+  
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+/********** tablet version **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  .col-md-12 {
+    width: 105%;
+  }
+}
+
+
+#titlep1{
+	float: right;
+	width:150px;
+	margin-bottom: 10px;
+	background-color: #FD6C9E;
+	font-size: 25px;
+	border: 2px solid black;
+	border-right: none;
+	border-top: none;
+	text-align: center;
+
+}
+
+
+#titlep2{
+	float:right;
+	width:150px;
+	margin-bottom: 10px;
+	background-color: red;
+	color:white;
+	font-size: 25px;
+	border: 2px solid black;
+	border-right: none;
+	border-top: none;
+	text-align: center;
+
+
+}
+
+
+#titlep3{
+	float:right;
+	width:150px;
+	margin-bottom: 10px;	
+	background-color: #CFC;
+	font-size: 25px;
+	border: 2px solid black;
+	border-right: none;
+	border-top: none;
+	text-align: center;
+
+
+}
+
