@@ -1,0 +1,65 @@
+
+.navbar-header a{
+	color:white;
+	font-size: 3.5em;
+	padding: 35px 0px 47px 25px;
+}
+
+#title{
+	color:black;
+}
+
+#header-nav{
+	border-radius: 0;
+}
+
+.col-xs-12 section{
+	color:black;
+	font-size: 1.5em;
+	text-align: justify;
+	margin:25px;
+}
+
+.col-xs-12{
+	border:2px solid black;
+	background: #aaa;
+
+}
+
+.container-fluid{
+	margin:30px;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+  .navbar-header h1 { /* Restaurant name */
+    font-size: 3.5em; /* 1vw = 1% of viewport width */
+    padding-left:25px;
+    margin-top: 35px;
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 2.5em;
+    text-align: center;
+    color:black;
+    border:2px solid black;
+    border-top:none;
+    border-left: none;
+  	border-right: none;
+    
+  }
+
+  #collapsable-nav{
+  	background-color: white;
+  	border:2px solid black;
+  	border-bottom: none;
+  }
+
+  .navbar-header a{
+	color:white;
+	font-size: 3.5em;
+	padding: 35px 0px 47px 55px;
+}
+ }
